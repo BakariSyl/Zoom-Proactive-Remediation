@@ -13,7 +13,7 @@ This repository contains two PowerShell scripts:
 ## Usage
 
 Detection Script
--------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
 Run the detection script to identify all instances of Zoom installed on the system:
 
 ``powershell
@@ -21,7 +21,7 @@ scripts/DetectZoom.ps1
 ```
 
 Remediation Script
-----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
 Run the remediation script to silently uninstall Zoom from all detected locations:
 
 ``powershell
