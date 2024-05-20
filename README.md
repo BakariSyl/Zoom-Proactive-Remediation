@@ -11,7 +11,7 @@ This repository contains two PowerShell scripts:
 2. `RemediateZoom.ps1`  - Silently uninstalls detected Zoom installations and logs the results.
 
 ## Usage
-
+```
 Detection Script
 
 -----------------------------------------------------------------------------------------------------
@@ -20,7 +20,7 @@ Run the detection script to identify hall instances of Zoom installed on the sys
 ``powershell
 scripts/DetectZoom.ps1
 ```
-
+```
 Remediation Script
 
 -----------------------------------------------------------------------------------------------------
