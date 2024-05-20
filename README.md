@@ -13,14 +13,15 @@ This repository contains two PowerShell scripts:
 ## Usage
 
 Detection Script
+-------------------------------------------------------------------------------------------
 Run the detection script to identify all instances of Zoom installed on the system:
 
-``powershell scripts/DetectZoom.ps1`
-
-Flag the remediation script section with a line of dashes fattened
------------------------------------------------------------------------------------------------------
+``powershell
+scripts/DetectZoom.ps1
+```
 
 Remediation Script
+----------------------------------------------------------------------------------
 Run the remediation script to silently uninstall Zoom from all detected locations:
 
 ``powershell
@@ -29,4 +30,8 @@ scripts/RemediateZoom.ps1
 
 ## Logs
 
-Logs are saved in the `C:\sapport` directory on the system where the scripts are executed. Example logs are included in the `logs` directory.
+Logs are saved in the `C:\Support` directory on the system where the scripts are executed. Example logs are included in the `logs` directory.
+
+# Detection Log Example
+
+This directory contains logs for the Zoom detection and remediation scripts.
